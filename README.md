@@ -1,10 +1,10 @@
-#🔐 Tratamento_Autenticacao
+# 🔐 Tratamento_Autenticacao
 
 Projeto desenvolvido para realizar o tratamento de dados de cadastro e login de usuários, incluindo validação de informações, autenticação e controle de acesso, com foco em segurança e boas práticas de desenvolvimento.
 
 ---
 
-##🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 -Cadastro de usuários
 -Validação de dados de entrada
@@ -14,7 +14,7 @@ Projeto desenvolvido para realizar o tratamento de dados de cadastro e login de 
 
 ---
 
-##🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 -HTML
 -JavaScript
@@ -22,6 +22,6 @@ Projeto desenvolvido para realizar o tratamento de dados de cadastro e login de 
 
 ---
 
-##🔒 Segurança
+## 🔒 Segurança
 
 O projeto segue boas práticas de desenvolvimento, incluindo validação de dados e cuidado no tratamento de informações de autenticação, visando reduzir riscos como acessos não autorizados.
