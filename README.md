@@ -6,19 +6,19 @@ Projeto desenvolvido para realizar o tratamento de dados de cadastro e login de 
 
 ## 🚀 Funcionalidades
 
--Cadastro de usuários
--Validação de dados de entrada
--Autenticação de usuários (login)
--Controle de acesso
--Tratamento seguro das informações
+- Cadastro de usuários
+- Validação de dados de entrada
+- Autenticação de usuários (login)
+- Controle de acesso
+- Tratamento seguro das informações
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
--HTML
--JavaScript
--CSS
+- HTML
+- JavaScript
+- CSS
 
 ---
 
