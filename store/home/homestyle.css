@@ -1,0 +1,220 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navegação {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .navegação li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navegação li a:hover {
+    color: #1abc9c;
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  /* Estilos para o ícone do carrinho de compras */
+  .bx-cart {
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .bx-cart:hover {
+    color: #1abc9c;
+  }
+  
+  /* Estilos para o ícone do menu hamburguer */
+  #menu {
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: none;
+  }
+  
+  #menu:hover {
+    color: #1abc9c;
+  }
+  
+  /* Estilos para o menu hamburguer em telas menores */
+  @media screen and (max-width: 768px) {
+    .navegação {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 4.5rem;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navegação li {
+      margin-bottom: 1rem;
+    }
+  
+    #menu {
+      display: block;
+    }
+  }
+  
+  /* Estilos para a seção principal */
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 10rem;
+  }
+  
+  .home-img {
+    flex-basis: 50%;
+    text-align: center;
+  }
+  
+  .home-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .home-text {
+    flex-basis: 50%;
+  }
+  
+  .home-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .home-text h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #aaa;
+    margin-bottom: 2rem;
+  }
+  
+  .home-text h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    display: block;
+    margin-top: 2rem;
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+ 
+  :root{
+    --cor-fundo : rgb(255, 255, 255);
+    --cor-hover : rgb(151, 250, 173);
+    --cor-primaria : #aaa;
+  }
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+    position: relative;
+}
+
+.dp-menu ul li{ 
+    display:inline-block;
+
+}
+
+.dp-menu ul li a{ 
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+
+
+}
+
+.dp-menu ul li a:hover{ 
+    background-color: var(--cor-hover);
+
+}
+
+/*sub menu*/
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+   
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+    
+}
+
+.dp-menu ul ul{
+    width: 150px;
+}
+
+.dp-menu ul ul li{
+    display: block;
+   
+}
+
+.home-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+
